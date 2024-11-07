@@ -41,7 +41,7 @@ public:
 class Worker 
 {
     int m_value;
-    std::vector<int> m_data; // Unclear variable name
+    std::vector<int> m_data; 
 public:
     Worker(int value = 0) {
         m_value = value;
